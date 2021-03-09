@@ -29,6 +29,7 @@ nav{
   background: #A6A57A;
   float: center;
   display: flex;
+  margin-top: none;
 }
 
 li a{
