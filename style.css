@@ -27,7 +27,7 @@ nav{
   list-style-type: none;
   background: #A6A57A;
   float: center;
-  display: block;
+  display: flex;
 }
 
 li a{
