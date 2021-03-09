@@ -14,3 +14,10 @@ h2 {
 p {
   font-size: 19px;
 }
+
+img{
+  border: 0;
+  width: 60%;
+  min-width: 200px;
+  max-width: 500px;
+}
