@@ -21,3 +21,10 @@ img{
   min-width: 200px;
   max-width: 500px;
 }
+
+nav{
+  list-style-type: none;
+  background: #232889;
+  float: left;
+  display: block;
+}
