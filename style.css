@@ -67,3 +67,7 @@ a{
   background-color: #A6A57A;
   padding: 20px;
 }
+
+a:hover nav{
+  background-color: grey;
+}
