@@ -68,6 +68,6 @@ a{
   padding: 20px;
 }
 
-a:hover nav{
+a:hover{
   background-color: grey;
 }
