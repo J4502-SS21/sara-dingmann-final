@@ -52,3 +52,8 @@ a{
   text-decoration: none;
   font-style: bold;
 }
+
+.popup{
+  background-color: #B5937D;
+  padding: 20px;
+}
