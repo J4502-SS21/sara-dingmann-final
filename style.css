@@ -75,3 +75,8 @@ a{
 a:hover{
   background-color: grey;
 }
+
+#pop-img{
+  margin-left: 8px;
+  margin-right: 8px;
+}
