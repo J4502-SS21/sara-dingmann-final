@@ -29,11 +29,12 @@ nav{
   background: #A6A57A;
   float: center;
   display: flex;
+  font-size: 19px;
 }
 
 li a{
   display: block;
-  font-size: 18px;
+  font-size: 19px;
   padding: 20px;
   color: black;
   list-style-type: none;
