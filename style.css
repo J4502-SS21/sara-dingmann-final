@@ -15,6 +15,7 @@ h2 {
 
 p {
   font-size: 19px;
+  text-align: left;
 }
 
 img{
@@ -30,6 +31,7 @@ nav{
   float: center;
   display: flex;
   font-size: 19px;
+  margin-top: 0;
 }
 
 li a{
