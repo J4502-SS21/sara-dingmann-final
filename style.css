@@ -54,6 +54,7 @@ ul{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  font-size: 19px;
 }
 
 a{
@@ -64,7 +65,7 @@ a{
 
 .popup{
   background-color: #A6A57A;
-  padding: 100px;
+  padding: 10px;
 }
 
 a:hover{
