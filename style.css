@@ -5,7 +5,7 @@ body {
 
 h1 {
   font-size: 45px;
-  background-color: #B5937D;
+  background: #A6A57A;
   margin-bottom: 0;
   border: 20px;
 }
@@ -29,11 +29,11 @@ img{
 
 nav{
   list-style-type: none;
-  background: #A6A57A;
+  background-color: #B5937D;
   float: center;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
   font-size: 19px;
   margin-top: 0;
 }
