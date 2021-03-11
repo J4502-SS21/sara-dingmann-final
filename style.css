@@ -114,4 +114,9 @@ strong{
   font-size: 23px;
   border-color: black;
   border: 1px;
+  list-style-type: none;
+}
+
+.select{
+  padding: 10px;
 }
