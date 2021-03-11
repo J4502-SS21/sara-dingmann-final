@@ -90,3 +90,8 @@ a:hover{
 #how-to{
   margin: 5px;
 }
+
+strong{
+  font-size: 19px;
+  margin-top: 8px
+}
