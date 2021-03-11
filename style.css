@@ -95,3 +95,23 @@ strong{
   font-size: 19px;
   margin-top: 8px
 }
+
+.quiz {
+  background-color: #B5937D;
+}
+
+.answers {
+  list-style-type: circle;
+  font-size: 19px;
+  padding: 20px;
+  float: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.question {
+  font-family: 'Merriweather', serif;
+  font-size: 23px;
+}
