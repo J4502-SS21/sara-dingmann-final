@@ -51,7 +51,7 @@ li a{
   text-align: center;
 }
 
-ul{
+.navigation{
   list-style-type: none;
   float: center;
   display: flex;
