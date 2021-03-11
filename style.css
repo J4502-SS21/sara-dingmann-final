@@ -99,6 +99,7 @@ strong{
 .quiz {
   background-color: #B5937D;
   list-style-type: none;
+  margin: 0;
 }
 
 .answers {
@@ -117,8 +118,10 @@ strong{
   border-color: black;
   border: 1px;
   list-style-type: none;
+  margin: 0;
 }
 
 .select{
-  padding: 15px;
+  padding: 5px;
+  margin: 0;
 }
