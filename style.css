@@ -98,6 +98,7 @@ strong{
 
 .quiz {
   background-color: #B5937D;
+  list-style-type: none;
 }
 
 .answers {
