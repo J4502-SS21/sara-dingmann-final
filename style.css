@@ -125,3 +125,40 @@ strong{
   padding: 5px;
   margin: 0;
 }
+
+@media screen and (max-width:374px){
+
+  li a{
+    padding-left:10px;
+    padding-right:10px;
+  }
+}
+
+@media screen and (min-width:442px){
+
+  li a{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+@media screen and (min-width:599px){
+  li a{
+    padding-right: 70px;
+    padding-left: 70px;
+  }
+}
+
+@media screen and (min-width:679px){
+
+  li a{
+    padding: 20px
+  }
+}
+
+}
+
+@media screen and (max-width:548px){
+  h1{
+    font-size: 30px;
+  }
+}
