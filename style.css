@@ -73,6 +73,12 @@ a{
   margin: 40px;
 }
 
+.popup-materials{
+  background-color: #A6A57A;
+  padding: 10px;
+  margin: 40px;
+}
+
 a:hover{
   background-color: grey;
 }
@@ -155,6 +161,29 @@ strong{
   }
 }
 
+.how-to-img{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.how-to{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.body{
+  margin-left: 80px;
+  margin-right:80px;
+}
+
+  .history{
+    width:90%;
+  }
+
 }
 
 @media screen and (max-width:548px){
@@ -179,6 +208,27 @@ strong{
   li a{
     padding-right: 50px;
     padding-left: 50px;
+  }
+
+  .history{
+    width: 774px;
+  }
+
+}
+
+@media screen and (min-width:900px){
+
+  .popup-materials{
+    width: 25%;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+
+  .materials-class{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
 }
