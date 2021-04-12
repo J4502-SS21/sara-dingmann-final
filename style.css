@@ -74,6 +74,12 @@ a{
   margin: 40px;
 }
 
+.popup-pattern{
+  background-color: #A6A57A;
+  padding: 10px;
+  margin: 40px;
+}
+
 .popup-materials{
   background-color: #A6A57A;
   padding: 10px;
@@ -230,7 +236,10 @@ strong{
   }
 
   .intro-body{
-    margin: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 0px;
+    margin-bottom: 0px;
     padding: 0px;
   }
 
@@ -245,6 +254,16 @@ strong{
     padding-top: 20px;
     padding-bottom: 40px;
     margin: 20px;
+  }
+
+  .popup-pattern{
+    width:40%;
+  }
+
+  .knitpattern{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
   }
 
   .popup-materials{
