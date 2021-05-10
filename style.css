@@ -13,7 +13,7 @@ h1 {
 
 h2 {
   font-size: 23px;
-  font-style: bold;
+
   font-family: 'Merriweather', serif;
 }
 
@@ -33,7 +33,7 @@ img{
 nav{
   list-style-type: none;
   background-color: #B5937D;
-  float: center;
+
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -54,7 +54,7 @@ li a{
 
 .navigation{
   list-style-type: none;
-  float: center;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -65,7 +65,7 @@ li a{
 a{
   color: #4B6E95;
   text-decoration: none;
-  font-style: bold;
+
 }
 
 .popup{
@@ -96,7 +96,7 @@ a:hover{
   flex-wrap: wrap;
 }
 
-#header {
+.header {
   width: 50%;
 }
 
@@ -116,7 +116,7 @@ strong{
 
 h3{
   font-family: 'Merriweather', serif;
-  font-style: bold;
+
   font-size: 23px;
 }
 
@@ -144,7 +144,7 @@ button {
   padding: 1rem 1.5rem;
   font-size: 1.2rem;
   cursor: pointer;
-  cursor: hand;
+
 }
 
 .shadow {
@@ -237,7 +237,7 @@ button {
     flex-wrap: wrap;
   }
 
-  #header{
+  .header{
     width: 25%;
   }
 
