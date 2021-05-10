@@ -11,6 +11,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Mukta:wght@400;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>
 
 
 </head>
@@ -44,3 +45,60 @@
   <img class="history" src="crochetinghooks.jpg" alt="Three crocheting hooks lay one in front of the other, each a different color, but all about the same size. You only see the top half of the hooks, not the whole tool." />
 
   <p class="body"> As for which is better, that is up to personal preference. Crocheting is actually easier and faster then knitting. Since it only requires on tool it is a lot easier for people to pick up and cheaper to start. While knitting does take more time and costs more money because of the need for more tools, it can create more complicated designs.  </p>
+
+  <h2>Quiz: What project should you do?</h2>
+  <form>
+	   <h3>When did knitting come to America?</h3>
+     <div><input id="colonization" type="radio" name="columns" value="colonization">
+     <label for="colonization">During colonization</label></div>
+
+     <div><input id="WWI" type="radio" name="columns" value="WWI">
+     <label for="WWI">During World War I</label></div>
+
+     <div><input id="WWII" type="radio" name="columns" value="WWII">
+     <label for="WWII">During World War II</label></div>
+	</form>
+
+	<form>
+	   <h3>When did knitting become a hobby and not a necessity for making clothes?</h3>
+     <div><input id="colonizationofamerica" type="radio" name="columns" value="colonizationofamerica">
+     <label for="colonizationofamerica">During colonization of America</label></div>
+
+     <div><input id="revolution" type="radio" name="columns" value="revolution">
+     <label for="revolution">During the Revolutionary War</label></div>
+
+     <div><input id="steam" type="radio" name="columns" value="steam">
+     <label for="steam">In the 1800s with invention of steam powered knitting machine</label></div>
+	</form>
+
+	<form>
+	   <h3>What makes knitting and crocheting basically the same?</h3>
+     <div><input id="fabric" type="radio" name="columns" value="fabric">
+     <label for="fabric">Both use two needles to create fabric</label></div>
+
+     <div><input id="looping" type="radio" name="columns" value="looping">
+     <label for="looping">Are both ways of looping yarn together</label></div>
+
+     <div><input id="hobbies" type="radio" name="columns" value="hobbies">
+     <label for="hobbies">Both are only hobbies of little old ladies</label></div>
+	</form>
+
+	<form>
+		<h3>How are the loops in knitting different from crocheting?</h3>
+    <div><input id="granny" type="radio" name="columns" value="granny">
+    <label for="granny">Knitting makes Granny Knots and crocheting makes Square Knots</label></div>
+
+    <div><input id="v" type="radio" name="columns" value="v">
+    <label for="v">Knitting makes more of a “v” loop, while crocheting makes more of a knot</label></div>
+
+    <div><input id="trick" type="radio" name="columns" value="trick">
+    <label for="trick">Trick question! They are both the same</label></div>
+
+	</form>
+
+<button class="shadow" id="coco">Submit</button>
+
+<p class="answers" id="answerTally"></p>
+
+</body>
+</html>

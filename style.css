@@ -109,35 +109,61 @@ strong{
   font-family: 'Merriweather', serif;
 }
 
-.quiz {
-  background-color: #B5937D;
-  list-style-type: none;
-  margin: 0;
-}
-
-.answers {
-  list-style-type: circle;
-  font-size: 19px;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 0;
-}
-
-.question {
-  font-family: 'Merriweather', serif;
-  font-size: 23px;
-  border-color: black;
-  border: 5px;
-  list-style-type: none;
-  margin: 0;
-}
-
 .select{
   padding: 5px;
   margin: 0;
 }
+
+h3{
+  font-family: 'Merriweather', serif;
+  font-style: bold;
+  font-size: 23px;
+}
+
+label{
+  font-family: 'Merriweather', serif;
+  font-size: 19px;
+}
+
+form {
+  margin: 2rem;
+  box-sizing: border-box;
+  border: 8px solid #A6A57A;
+  border-radius: 15px;
+  padding: 1rem 2rem 2rem 2rem;
+}
+
+button {
+  margin: 2rem auto;
+  display: block;
+  color: #000;
+  background: #A6A57A;
+  font-weight: bold;
+  border: none;
+  border-radius: 15px;
+  padding: 1rem 1.5rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+  cursor: hand;
+}
+
+.shadow {
+  -webkit-box-shadow: 3px 3px 3px 3px #ccc;  /* Safari 3-4, iOS 4.0.2 - 4.2, Android 2.3+ */
+  -moz-box-shadow:    3px 3px 3px 3px #ccc;  /* Firefox 3.5 - 3.6 */
+  box-shadow:         3px 3px 3px 3px #ccc;  /* Opera 10.5, IE 9, Firefox 4+, Chrome 6+, iOS 5 */
+}
+
+.answers {
+  text-align: center;
+  font-size: 1.6rem;
+}
+
+.answers span {
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+
 
 @media screen and (max-width:374px){
 
